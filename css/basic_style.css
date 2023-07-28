@@ -19,8 +19,8 @@ h1{
 /*-----------------------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 ----------------------------------------------------*/
-.container .squares:nth-child(-n+4){
-    background-image: url(../Images/Smiley1.png);
+.container .squares:nth-child(-n+4) {
+    background-image: url("../Images/Smiley1.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -33,10 +33,10 @@ h1{
 }
 
 /*-----------------------------------------------------
-    SELECT ALL SQUARES PARAGRAHS IN THE ARRAY
+    SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY
 ----------------------------------------------------*/
 .squares:nth-child(-n+4) p{
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     font-weight: 900;
     text-align: center;
