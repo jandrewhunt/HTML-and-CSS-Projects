@@ -1,0 +1,104 @@
+img {
+    filter: sepia(80%);
+    border: 3px dashed red;
+    border-radius: 25px 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: pink;
+    color: blue;
+    border: 3px dashed blue;
+    border-radius: 100px 25px;
+    font-weight: bolder;
+}
+
+table, th, td {
+    border: 2px dashed red;
+    text-align: center;
+    padding: 3px;
+    padding-bottom: 4px;
+    background-color: yellow;
+    color: blue;
+}
+
+th {
+    background-color: aqua;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* Centered text */
+.centered {
+    border: 2px dashed red;
+    color: green;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fade {
+    opacity: 0;
+}
+
+.container:hover .fade{
+    opacity: 1;
+}
+
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+/* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: yellow;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* ????? Add a top margin to avoid content overlay ????? */
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    color:blueviolet;
+    height: 50px;
+    width: 50%;
+    background-color: powderblue;
+  }
+
+.column:hover {
+    background-color: blanchedalmond;
+} 

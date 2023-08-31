@@ -1,0 +1,63 @@
+img {
+    filter: grayscale(40%);
+    border: 3px dashed blue;
+    border-radius: 25px 100px;
+}
+
+table, th, td {
+    border: 2px dashed red;
+    text-align: center;
+    padding: 3px;
+    padding-bottom: 4px;
+    background-color: yellow;
+    color: blue;
+}
+
+th {
+    background-color: aqua;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: pink;
+    color: blue;
+    border: 3px dashed blue;
+    border-radius: 100px 25px;
+    font-weight: bold;
+  }
+
+  .navbar {
+    overflow: hidden;
+    color: blue;
+    background-color: pink;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+
+  /* Container holding the image and the text */
+  .container {
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 18px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    border: 2px dashed red;
+    color: green;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
