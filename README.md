@@ -4,8 +4,8 @@
 
 ## Projects
 
-- [Mulder: Dog, Citizen, Visionary] (https://github.com/jandrewhunt/HTML-and-CSS-Projects/tree/main/Website%20Project)
-- [Academy Cinemas] (https://github.com/jandrewhunt/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
+- [Mulder: Dog, Citizen, Visionary](https://github.com/jandrewhunt/HTML-and-CSS-Projects/tree/main/Website%20Project)
+- [Academy Cinemas](https://github.com/jandrewhunt/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
 
 ### Mulder: Dog, Citizen, Visionary
 ##### This page is an example home page for a dog-politician. It's styled using CDD and continas a navbar, image containers, and a form.
